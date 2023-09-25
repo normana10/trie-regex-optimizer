@@ -6,9 +6,9 @@ To install via Maven, add the following to the `<dependencies>` section of your 
 
 ```xml
 <dependency>
-    <groupId>com.drewnoakes</groupId>
-    <artifactId>metadata-extractor</artifactId>
-    <version>0.0.1</version>
+    <groupId>space.normand</groupId>
+    <artifactId>trie-regex-optimizer</artifactId>
+    <version>0.0.2</version>
 </dependency>
 ```
 
