@@ -23,9 +23,8 @@ final String optimizedPattern = RegexTrieOptimizer.forTerms(List.of("the","list"
 
 If you're going to do a case-insensitive regex, you can do:
 
-(The case-insensitive variant is more compact and performant _depending_ on how mixed your upper/lower
-casing is)
-
 ```java
 final String optimizedPattern = RegexTrieOptimizer.forTermsCaseInsensitive(List.of("the","list","of","terms","to","optimize"));
 ```
+
+(The case-insensitive variant is more compact and performant _depending_ on how mixed your upper/lower casing is)
